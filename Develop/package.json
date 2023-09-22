@@ -1,14 +1,23 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Joshua Fernandez",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
-  }
+    "express": "^4.16.4",
+    "uuid": "^9.0.1"
+  },
+  "description": "A web-based note taking application using Express.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pineonline10/express-note-taker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pineonline10/express-note-taker/issues"
+  },
+  "homepage": "https://github.com/pineonline10/express-note-taker#readme"
 }
